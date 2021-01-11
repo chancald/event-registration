@@ -39,7 +39,7 @@ json = {
 }
 
 def store_registrant(json):
-    ''' stores registrant to contacts or updates existant contact following filtering rules '''
+    ''' stores registrant to contacts or updates exsistant contact following filtering rules '''
 
     name = json['registrant']['name']
     email = json['registrant']['email']
